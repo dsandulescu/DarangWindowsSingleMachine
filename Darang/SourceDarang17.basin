@@ -1,0 +1,410 @@
+Basin: Darang17
+     Description: Darang modelling
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 12:11:43
+     Version: 4.2.1
+     Filepath Separator: \
+     Unit System: Metric
+     Grid Cell File: D:\___RBD\Darang17.mod
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: W330
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:31:53
+     Canvas X: -3813622.676363851
+     Canvas Y: 1.0735198154857958E7
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 507.67
+     Downstream: J55
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.4
+     Curve Number: 64
+     Initial Abstraction: 28.6
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 2.74
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 6.94
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Subbasin: W440
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:31:53
+     Canvas X: -3814993.3639866407
+     Canvas Y: 1.0698760708885461E7
+     Label X: -73.0
+     Label Y: -23.0
+     Area: 367.72
+     Downstream: J63
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2
+     Curve Number: 61
+     Initial Abstraction: 32.5
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 2.83
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 12.97
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Subbasin: W400
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:31:53
+     Canvas X: -3806426.5663442044
+     Canvas Y: 1.071269603305049E7
+     Label X: 1.0
+     Label Y: -34.0
+     Area: 111.4524
+     Downstream: J63
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3.4
+     Curve Number: 64
+     Initial Abstraction: 28.6
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 2.74
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 6.94
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Junction: J63
+     Description: Generic junction
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 12:06:50
+     Canvas X: -3820133.4425721024
+     Canvas Y: 1.0716693871950295E7
+     Label X: -44.0
+     Label Y: -23.0
+     Downstream: R170
+End:
+
+Reach: R170
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:48:34
+     Canvas X: -3830448.0335487844
+     Canvas Y: 1.0730935768063372E7
+     From Canvas X: -3820133.4425721024
+     From Canvas Y: 1.0716693871950295E7
+     Label X: 13.0
+     Label Y: -14.0
+     Downstream: J55
+
+     Route: Muskingum Cunge
+     Channel: Trapezoid
+     Length: 32457
+     Energy Slope: 0.0057306
+     Mannings n: 0.03
+     Bottom Width: 40
+     Side Slope: 0.5
+     Use Variable Time Step: No
+     Channel Loss: None
+End:
+
+Junction: J55
+     Description: Generic junction
+     Last Modified Date: 15 December 2017
+     Last Modified Time: 10:42:11
+     Canvas X: -3830448.0335487844
+     Canvas Y: 1.0730935768063372E7
+     Label X: -48.0
+     Label Y: -9.0
+     Observed Hydrograph Gage: Dis2
+     Downstream: R90
+End:
+
+Reach: R90
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:48:34
+     Canvas X: -3840039.8349290323
+     Canvas Y: 1.0734777081912903E7
+     From Canvas X: -3830448.0335487844
+     From Canvas Y: 1.0730935768063372E7
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J69
+
+     Route: Muskingum Cunge
+     Channel: Trapezoid
+     Length: 2229.8
+     Energy Slope: 0.0017127
+     Mannings n: 0.03
+     Bottom Width: 40
+     Side Slope: 0.5
+     Use Variable Time Step: No
+     Channel Loss: None
+End:
+
+Subbasin: W350
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:31:53
+     Canvas X: -3838085.7482000003
+     Canvas Y: 1.07260315775E7
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 422.71
+     Downstream: J69
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 8
+     Curve Number: 61
+     Initial Abstraction: 32.5
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 2.26
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 14.18
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Junction: J69
+     Description: Generic junction
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:52:18
+     Canvas X: -3840039.8349290323
+     Canvas Y: 1.0734777081912903E7
+     Label X: -44.0
+     Label Y: -21.0
+     Downstream: R40
+End:
+
+Reach: R40
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:48:55
+     Canvas X: -3842792.1826573745
+     Canvas Y: 1.0741583774546353E7
+     From Canvas X: -3840039.8349290323
+     From Canvas Y: 1.0734777081912903E7
+     Label X: -7.0
+     Label Y: 10.0
+     Downstream: J58
+
+     Route: Muskingum Cunge
+     Channel: Trapezoid
+     Length: 6268.1
+     Energy Slope: .000864755594
+     Mannings n: 0.03
+     Bottom Width: 40
+     Side Slope: 0.5
+     Use Variable Time Step: No
+     Channel Loss: None
+End:
+
+Subbasin: W300
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:52:11
+     Canvas X: -3832126.959271513
+     Canvas Y: 1.074821968727446E7
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 237.042
+     Downstream: J58
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 2
+     Curve Number: 64
+     Initial Abstraction: 28.6
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 1.87
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 9.21
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Junction: J58
+     Description: Generic junction
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:48:55
+     Canvas X: -3842792.1826573745
+     Canvas Y: 1.0741583774546353E7
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R30
+End:
+
+Reach: R30
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:49:07
+     Canvas X: -3848351.7612635335
+     Canvas Y: 1.0746012591402108E7
+     From Canvas X: -3842792.1826573745
+     From Canvas Y: 1.0741583774546353E7
+     Label X: -30.0
+     Label Y: -24.0
+     Downstream: J70
+
+     Route: Muskingum Cunge
+     Channel: Trapezoid
+     Length: 6938.4
+     Energy Slope: 0.0437733
+     Mannings n: 0.03
+     Bottom Width: 40
+     Side Slope: 0.5
+     Use Variable Time Step: No
+     Channel Loss: None
+End:
+
+Subbasin: W310
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 13:51:55
+     Canvas X: -3855428.6488589393
+     Canvas Y: 1.0729715404366799E7
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 359.63
+     Downstream: J70
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 14
+     Curve Number: 51
+     Initial Abstraction: 48.8
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 0.93
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 1
+     Initial Baseflow: 4.22
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Junction: J70
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:49:07
+     Canvas X: -3848351.7612635335
+     Canvas Y: 1.0746012591402108E7
+     Downstream: R50
+End:
+
+Reach: R50
+     Last Modified Date: 14 December 2017
+     Last Modified Time: 11:49:07
+     Canvas X: -3853715.289330452
+     Canvas Y: 1.0748448135211593E7
+     From Canvas X: -3848351.7612635335
+     From Canvas Y: 1.0746012591402108E7
+     Downstream: Outlet1
+
+     Route: Muskingum Cunge
+     Channel: Trapezoid
+     Length: 10510
+     Energy Slope: 0.0156966
+     Mannings n: 0.03
+     Bottom Width: 40
+     Side Slope: 0.5
+     Use Variable Time Step: No
+     Channel Loss: None
+End:
+
+Sink: Outlet1
+     Description: Outlet1
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 15:09:18
+     Canvas X: -3853715.289330452
+     Canvas Y: 1.0748448135211593E7
+     Label X: 16.0
+     Label Y: 16.0
+     Observed Hydrograph Gage: Dis1
+End:
+
+Basin Schematic Properties:
+     Last View N: 1.07517606303E7
+     Last View S: 1.06936206303E7
+     Last View W: -3866300.3188
+     Last View E: -3801380.3188
+     Maximum View N: 1.07517606303E7
+     Maximum View S: 1.06936206303E7
+     Maximum View W: -3866300.3188
+     Maximum View E: -3801380.3188
+     Extent Method: Elements
+     Buffer: 10
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: Yes
+     Draw Flow Direction: No
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+     Map: hec.map.aishape.AiShapeMap
+     Map File Name: maps\River1.shp
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: Yes
+     Map: hec.map.aishape.AiShapeMap
+     Map File Name: maps\Subbasin1.shp
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: Yes
+End:

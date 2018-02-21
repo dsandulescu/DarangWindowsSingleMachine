@@ -1,0 +1,112 @@
+Meteorology: DarangMet
+     Description: The standard met model of Darang
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:19:10
+     Version: 4.2.1
+     Unit System: Metric
+     Set Missing Data to Default: Yes
+     Precipitation Method: Weighted Gages
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Use Basin Model: Darang17
+End:
+
+Gage: Gage 1
+     Type: Recording
+     Total Precipitation: 49.73
+End:
+
+Gage: Gage 2
+     Type: Recording
+     Total Precipitation: 57.1
+End:
+
+Gage: Gage 3
+     Type: Recording
+     Total Precipitation: 44.90
+End:
+
+Gage: TRMM
+     Type: Recording
+End:
+
+Precip Method Parameters: Weighted Gages
+     Last Modified Date: 6 July 2017
+     Last Modified Time: 12:29:31
+     Use HEC1 Weighting Scheme: Yes
+     Use Indexing: No
+     Allow Depth Override: Yes
+End:
+
+Subbasin: W330
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:29:07
+     Vapor Pressure Type: Relative Humidity
+     Gage: Gage 1
+     Volume Weight: 0.35
+     Temporal Distribution Weight: 0.35
+     Gage: Gage 3
+     Volume Weight: 0.65
+     Temporal Distribution Weight: 0.65
+End:
+
+Subbasin: W440
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:32:40
+     Vapor Pressure Type: Relative Humidity
+     Gage: Gage 1
+     Volume Weight: 1
+     Temporal Distribution Weight: 1
+End:
+
+Subbasin: W400
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:32:12
+     Vapor Pressure Type: Relative Humidity
+     Gage: Gage 1
+     Volume Weight: 1
+     Temporal Distribution Weight: 1
+End:
+
+Subbasin: W350
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:31:42
+     Vapor Pressure Type: Relative Humidity
+     Gage: Gage 1
+     Volume Weight: 0.3
+     Temporal Distribution Weight: 0.3
+     Gage: Gage 2
+     Volume Weight: 0.4
+     Temporal Distribution Weight: 0.4
+     Gage: Gage 3
+     Volume Weight: 0.3
+     Temporal Distribution Weight: 0.3
+End:
+
+Subbasin: W300
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:30:07
+     Vapor Pressure Type: Relative Humidity
+     Relative Humidity Gage Name: --None--
+     Gage: Gage 2
+     Volume Weight: 0.2
+     Temporal Distribution Weight: 0.2
+     Gage: Gage 3
+     Volume Weight: 0.8
+     Temporal Distribution Weight: 0.8
+End:
+
+Subbasin: W310
+     Last Modified Date: 5 July 2017
+     Last Modified Time: 14:30:56
+     Vapor Pressure Type: Relative Humidity
+     Relative Humidity Gage Name: --None--
+     Gage: Gage 2
+     Volume Weight: 0.8
+     Temporal Distribution Weight: 0.8
+     Gage: Gage 3
+     Volume Weight: 0.2
+     Temporal Distribution Weight: 0.2
+End:
